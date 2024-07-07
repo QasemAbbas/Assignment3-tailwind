@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+     .span-style{
+          @apply border border-red-500 rounded-full p-2 mr-2 mt-4 text-[20px];
+     }
+     .box-icon{
+          @apply bg-red-100 p-1 rounded-full mr-4;
+     }
+}
